@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+  
+  }
+
+.contents-awesome{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+}
+
+#awesome-title{
+    background-color: limegreen;
+    margin: 0 auto;
+    justify-content: center;
+
+}
