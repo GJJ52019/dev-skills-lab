@@ -1,22 +1,22 @@
 /* there are no comments here because css is a lie its all magic words to get the spells to work correctly */
 /* jk we got this  */
 /* its chaos in here need to reorganize some time */
-*{
+/* *{
     box-sizing: border-box;
   
-  }
+  } */
 
-.contents-awesome{
+/* .contents-awesome{
    position: relative;
    
    left: auto;
-}
+} */
 
 /* colored the header but still struggling to position */
 #awesome-title{
     background-color: rgb(8, 172, 8);
     margin: 0 auto;
-    justify-content: center;
+    /* justify-content: center; */
     color:linen;
 } 
 
@@ -53,16 +53,15 @@ table {
 }
 
 /* not working as intended yet */
-h1 {
+/* h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     
-}
+} */
 /* also no idea */
 body{
-    
-    display: grid;
-    height: 100vh;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
