@@ -6,13 +6,16 @@ $('#press-it').on('click',function(evt){
         alert('You forgot your skill!? Believe in yourself!!!!')
         return;
     };
-   const template = `<button class="remove btn-xs btn-danger ">X</button><li>${$newLi}</li>`
+   const template = `<tr>
+   <td><button class="rmv btn-xs btn-danger ">X</button>${$newLi}</td>
+   </tr>`
     console.log(template);
 
-    $('#awe-induced').append(template);
+    $('tbody').append(template);
 });
 
-// $('.remove').on('click','button',function(evt) {
-//     $(this).closest('.skill-tree').fadeout(2000)
-//     $(this).remove();
-// });
+$('#radical-skills tbody').on('click',function(evt) {
+    // $(this).closest('.skill-tree').fadeout(2000)
+    console.log(this);
+    $(this).remove();
+});
