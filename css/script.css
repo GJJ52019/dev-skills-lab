@@ -1,32 +1,65 @@
 /* there are no comments here because css is a lie its all magic words to get the spells to work correctly */
+/* jk we got this  */
+/* its chaos in here need to reorganize some time */
 *{
     box-sizing: border-box;
   
   }
-/*
+
 .contents-awesome{
-   position: absolute;
-   top: 50%;
-   left: 50%;
+   position: relative;
+   
+   left: auto;
 }
 
+/* colored the header but still struggling to position */
 #awesome-title{
-    background-color: limegreen;
+    background-color: rgb(8, 172, 8);
     margin: 0 auto;
     justify-content: center;
+    color:linen;
+} 
 
-} */
+/* targets the .rmv tag created with the buttons margin right pushes the button away from the text*/
+ .rmv{
+    margin-right: 10px;
+    
+} 
 
-/* .remove{
-    display: inline-block;
-    margin-right: 5px;
-} */
+/* i do not know why font size did not work here */
+td{
+    color: orange;
+}
+
+/* targets the add skill button */
+#press-it{
+    color:rgb(8, 172, 8);
+    border-color: rgb(8, 172, 8) ;
+    background-color: white;
+    
+}
+/* colors and positions the input box */
+input{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-color: rgb(131, 224, 131) ;
+    
+}
+
+/* pushes the table off the header */
+table {
+    margin-top: 10px;
+    
+}
+
+/* not working as intended yet */
 h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
 }
-
+/* also no idea */
 body{
     
     display: grid;
