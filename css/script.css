@@ -1,8 +1,8 @@
-/* *{
+*{
     box-sizing: border-box;
   
   }
-
+/*
 .contents-awesome{
    position: absolute;
    top: 50%;
@@ -20,3 +20,14 @@
     display: inline-block;
     margin-right: 5px;
 } */
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

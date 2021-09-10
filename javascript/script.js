@@ -14,7 +14,7 @@ $('#press-it').on('click',function(evt){
     $('tbody').append(template);
 });
 
-$('#radical-skills tbody').on('click',function(evt) {
+$('#radical-skills tbody').on('click','td',function(evt) {
     // $(this).closest('.skill-tree').fadeout(2000)
     console.log(this);
     $(this).remove();
