@@ -12,6 +12,8 @@ $('#press-it').on('click',function(evt){
     console.log(template);
 
     $('tbody').append(template);
+
+    $('#cool-inputs').val("")
 });
 
 $('#radical-skills tbody').on('click','td',function(evt) {

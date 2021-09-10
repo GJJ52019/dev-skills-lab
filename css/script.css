@@ -1,3 +1,4 @@
+/* there are no comments here because css is a lie its all magic words to get the spells to work correctly */
 *{
     box-sizing: border-box;
   
@@ -27,7 +28,8 @@ h1 {
 }
 
 body{
+    
     display: grid;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
